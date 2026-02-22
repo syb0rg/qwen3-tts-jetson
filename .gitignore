@@ -1,0 +1,52 @@
+# Build
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Models (too large for git)
+models/
+
+# Reference outputs (generated)
+reference/*.bin
+reference/*.wav
+reference/debug/
+
+# Test outputs
+test_output/
+test_results.txt
+*.wav
+tmp*.mlpackage/
+third_party/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Binary assets
+*.png
+*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sisyphus
+.sisyphus/
+
+# Debug files
+debug_*.bin
+reference/decoder_debug/
+reference/debug/
+
+# Agent instructions
+AGENTS.md
